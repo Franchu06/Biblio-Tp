@@ -1,0 +1,102 @@
+QWidget {
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', sans-serif;
+    color: #000000;
+}
+
+QLabel {
+    font-family: 'Eras Medium ITC', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: transparent;
+    font-weight: bold;
+    border: #f7f9fc;
+}
+
+QLineEdit {
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    background-color: transparent;
+}
+
+QPushButton {
+    font-size: 22px;
+    background-color: #015bbc;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+QPushButton:hover {
+    background-color: #0579f6;
+    font-size: 24px;
+}
+
+QVBoxLayout, QHBoxLayout {
+    margin: 20px;
+}
+
+QLabel#header {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+QLabel#catalogoLabel {
+    font-size: 40px;
+    color: rgb(9, 50, 196);
+}
+
+
+
+#registerForm {
+    background-image: url("Fondo.png");
+    background-size: contain;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#background{
+    background-image: url("Fondo.png") ;
+}
+
+#catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.libro-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    width: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.libro-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 40px;
+    color: #ff0022;
+    
+}
+
+.libro-card p {
+    margin: 4px 0;
+}
